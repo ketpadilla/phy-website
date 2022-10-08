@@ -59,9 +59,9 @@ const Design = () => {
           </p>
         </div>
         <a className="rect2">
-          <label>NUMBER &nbsp</label>
+          <label>NUMBER</label>
           <input id="input" className="input" />
-          <label>&nbsp &nbsp UNIT &nbsp</label>
+          <label>UNIT</label>
           <select id="unit" className="input"></select>
         </a>
         <a href="" className="btn">
