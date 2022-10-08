@@ -44,7 +44,7 @@ const Design = () => {
           <h1 className="absolute-title">GRADE 4-6</h1>
           <h2>HORIZONTAL KINEMATICS</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            asdfLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue
             nisi vitae suscipit tellus mauris a diam maecenas sed. Massa massa
             ultricies mi quis hendrerit dolor magna. Lacus vel facilisis
