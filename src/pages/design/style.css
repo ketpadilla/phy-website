@@ -1,0 +1,136 @@
+.design {
+  background-color: #1b264a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.question {
+  width: 90%;
+  color: E3E5EB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.question h1 {
+  font-size: 64px;
+  color: #a7acbf;
+  text-align: left;
+}
+
+.question h2 {
+  font-size: 20px;
+  text-align: left;
+  color: #656d8e;
+  padding-left: 5px;
+  margin-top: -20px;
+}
+
+.question p {
+  text-align: justify;
+  margin: 10px 5px 40px;
+  font-size: 20px;
+  color: #e3e5eb;
+}
+.absolute-title {
+  margin-top: -57.5px;
+}
+.rect {
+  border-radius: 30px;
+  background-color: #232f5e;
+  padding: 10px 67.5px;
+}
+
+/*--Buttons--*/
+.btn {
+  margin-top: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #e3e5eb;
+  border: 1px solid #232f5e;
+  background-color: #232f5e;
+  padding: 9px 34px;
+  font-size: 16px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  border: 1px solid #e3e5eb;
+  background: #e3e5eb;
+  color: black;
+  transition: 0.5s;
+}
+
+/*--Input--*/
+.input {
+  background-color: #e3e5eb;
+  color: #1b264a;
+  padding-left: 10px;
+}
+input,
+label {
+  color: #e3e5eb;
+}
+.rect2 {
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #232f5e;
+  padding: 10px 30px;
+}
+
+/*--Menu--*/
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+nav .fa {
+  display: none;
+}
+.logo {
+  position: absolute;
+  top: 500px;
+  left: 80px;
+  z-index: 2;
+}
+
+@media (max-width: 9999px) {
+  .nav-links {
+    position: absolute;
+    background-color: #232f5e;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 100px;
+    width: 400px;
+    top: 50px;
+    left: -600px;
+    text-align: center;
+    transition: 0.8s;
+    z-index: 1;
+    box-shadow: 6px 6px 8px black;
+  }
+  nav .fa {
+    display: block;
+    color: #e3e5eb;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav-links ul {
+    padding: 20px;
+    margin-top: -45px;
+  }
+}

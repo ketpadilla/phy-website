@@ -43,6 +43,8 @@ const App = () => {
 
   return (
     <div className="container mx-auto my-8 px-4">
+      <h1 className="my_class">Prince</h1>
+
       {finished ? (
         <div>
           <p className="font-semibold">Finished!</p>
