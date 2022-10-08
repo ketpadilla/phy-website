@@ -112,7 +112,7 @@ const Question = ({
           <div className="flex items-center">
             <p>{letters[idx]}: </p>
             <input
-              className="ml-2 border-2 border-gray-500 rounded-md px-2 py-1"
+              className="ml-2 border-2 border-gray-500 rounded-md px-2 py-1 bg-transparent"
               type="number"
               value={value}
               onChange={(e) => {
