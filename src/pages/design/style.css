@@ -1,5 +1,5 @@
 .design {
-  background-color: #1b264a;
+  background-image: url("/src/assets/background.png");
 }
 
 html {
@@ -36,9 +36,11 @@ html {
   font-size: 20px;
   color: #e3e5eb;
 }
+
 .absolute-title {
   margin-top: -57.5px;
 }
+
 .rect {
   border-radius: 30px;
   background-color: #232f5e;
@@ -62,6 +64,7 @@ html {
   cursor: pointer;
   transition: 0.5s;
 }
+
 .btn:hover {
   border: 1px solid #e3e5eb;
   background: #e3e5eb;
@@ -75,10 +78,12 @@ html {
   color: #1b264a;
   padding-left: 10px;
 }
+
 input,
 label {
   color: #e3e5eb;
 }
+
 .rect2 {
   margin: 10px;
   border-radius: 30px;
@@ -93,12 +98,15 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-links ul li:hover::after {
   width: 100%;
 }
+
 nav .fa {
   display: none;
 }
+
 .logo {
   position: absolute;
   top: 500px;
@@ -121,6 +129,7 @@ nav .fa {
     z-index: 1;
     box-shadow: 6px 6px 8px black;
   }
+
   nav .fa {
     display: block;
     color: #e3e5eb;
@@ -129,6 +138,7 @@ nav .fa {
     font-size: 20px;
     cursor: pointer;
   }
+
   .nav-links ul {
     padding: 20px;
     margin-top: -45px;

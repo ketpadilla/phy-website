@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+// import "./style.css";
 
 interface Question {
   text: string;
